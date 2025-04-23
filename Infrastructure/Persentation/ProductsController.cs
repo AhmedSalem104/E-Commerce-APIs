@@ -19,8 +19,7 @@ namespace Presentation
         // sort: namedesc
         // sort: priceasc
         // sort: pricedesc
-        
-
+        // 
         [HttpGet] // GET: /api/Products
         public async Task<IActionResult> GetAllProduct([FromQuery]ProductSpecifiationsParameters specParams)
         {
