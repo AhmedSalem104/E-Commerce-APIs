@@ -1,6 +1,6 @@
-@Store.G06.Api_HostAddress = http://localhost:5236
+@Store.G06.Api_HostAddress = https://localhost:7230
 
 GET {{Store.G06.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
-###
+
